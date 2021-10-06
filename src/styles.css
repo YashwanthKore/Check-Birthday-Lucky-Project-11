@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+.App {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 2rem;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(139, 131, 131)
+  );
+}
+label {
+  display: block;
+  margin-top: 2rem;
+}
+
+button {
+  margin: 1rem 0rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+}
+
+#output-div {
+  width: 60%;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 1rem;
+  margin: auto;
+  background-color: white;
+}
